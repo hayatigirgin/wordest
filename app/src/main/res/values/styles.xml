@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //**********************************************************************************************
+    //TEXTVIEW STYLES
+
+    <style name="textView_font_bahnschrift" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/bahnschrift</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="textView_font_berlinSansFB" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/berlin_sans_fb</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    //**********************************************************************************************
+    //BUTTON STYLES
+
+    <style name="button_font_berlinSansFB" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/berlin_sans_fb</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="button_font_bahnschrift" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/bahnschrift</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    //**********************************************************************************************
+    //EDITTEXT STYLE
+
+    <style name="editText_font_bahnschrift" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">@font/bahnschrift</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    //**********************************************************************************************
+    //DIALOG STYLES
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+</resources>

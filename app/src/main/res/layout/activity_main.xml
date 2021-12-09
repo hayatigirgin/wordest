@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".Activities.ActivityMain">
+
+    <TextView
+        android:id="@+id/activityMain_textView_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:textSize="20sp"
+        android:textColor="@color/activityMain_recyclerView_item_background"
+        android:text="@string/MY_WORDS_LIST"
+        style="@style/textView_font_bahnschrift"/>
+
+    <TextView
+        android:id="@+id/activityMain_textView_wordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/activityMain_textView_header"
+        app:layout_constraintLeft_toRightOf="@+id/activityMain_textView_header"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/background_textview_circle"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        style="@style/textView_font_bahnschrift"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/activityMain_separator"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/activityMain_textView_header"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintWidth_percent="0.92"
+        app:layout_constraintVertical_bias="0.01"
+        android:background="@color/activityMain_recyclerView_item_background" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipeRefreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/activityMain_separator"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHeight_percent="0.88"
+        app:layout_constraintVertical_bias="0">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_main_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layoutAnimation="@anim/layout_animation"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ImageButton
+        android:id="@+id/activityMain_imageButton_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/activityMain_textView_header"
+        app:layout_constraintLeft_toLeftOf="@+id/activityMain_separator"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/icon_add"
+        android:background="@android:color/transparent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/activityMain_imageButton_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/activityMain_separator"
+        app:layout_constraintBottom_toBottomOf="@+id/activityMain_textView_header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/icon_favorite_empty_light"
+        android:background="@android:color/transparent"
+        tools:ignore="ContentDescription" />
+
+    <FrameLayout
+        android:id="@+id/activityMain_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="invisible"/>
+
+    <FrameLayout
+        android:id="@+id/activityMain_frameLayout_playSelector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="invisible"/>
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/activity_main_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:space_background_color="@color/space_background_color"
+        app:centre_button_color="@color/centre_button_color"
+        app:centre_button_icon="@drawable/icon_play"
+        app:active_centre_button_icon_color="@color/active_centre_button_icon_color"
+        app:inactive_centre_button_icon_color="@color/inactive_centre_button_icon_color"
+        app:active_centre_button_background_color="@color/active_centre_button_background_color"
+        app:active_item_color="@color/active_item_color"
+        app:inactive_item_color="@color/inactive_item_color"
+        app:space_item_icon_size="25dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

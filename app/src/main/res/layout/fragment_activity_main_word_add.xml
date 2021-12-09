@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_activityMain_word_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/opaque_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_activityMain_addWord_constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintVertical_bias="0.15"
+        android:paddingVertical="25dp"
+        android:background="@drawable/background_word_add">
+
+        <AutoCompleteTextView
+            android:id="@+id/fragment_activityMain_addWord_autoCompleteTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintVertical_bias="0.1"
+            android:padding="10dp"
+            android:layout_marginTop="25dp"
+            tools:ignore="LabelFor"
+            android:inputType="text"
+            android:background="@drawable/background_autocompletetextview"
+            android:popupBackground="@color/logo_color"
+            android:hint="@string/Select_a_word"
+            android:completionThreshold="1"
+            style="@style/textView_font_bahnschrift"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/fragment_activityMain_addWord_imageButton_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/fragment_activityMain_addWord_constraintLayout"
+            app:layout_constraintRight_toRightOf="@+id/fragment_activityMain_addWord_autoCompleteTextView"
+            app:layout_constraintBottom_toBottomOf="@+id/fragment_activityMain_addWord_constraintLayout"
+            app:layout_constraintLeft_toLeftOf="@+id/fragment_activityMain_addWord_constraintLayout"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintHorizontal_bias="1"
+            android:background="@drawable/icon_close"
+            android:src="@drawable/icon_close"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/fragment_activityMain_addWord_constraintLayout"
+            app:layout_constraintRight_toRightOf="@+id/fragment_activityMain_addWord_autoCompleteTextView"
+            app:layout_constraintBottom_toBottomOf="@+id/fragment_activityMain_addWord_constraintLayout"
+            app:layout_constraintLeft_toLeftOf="@+id/fragment_activityMain_addWord_autoCompleteTextView"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintHorizontal_bias="0.1"
+            style="@style/textView_font_bahnschrift"
+            android:textStyle="bold"
+            android:text="@string/ADD_WORD"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/fragment_activityMain_addWord_button_addThisWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_activityMain_addWord_autoCompleteTextView"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintVertical_bias="0.1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_add_word"
+            android:text="@string/Add_This_Word"
+            android:textSize="15sp"
+            android:textColor="@color/main_background"
+            style="@style/textView_font_bahnschrift"/>
+
+        <Button
+            android:id="@+id/fragment_activityMain_addWord_button_addRandomWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_activityMain_addWord_button_addThisWord"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintVertical_bias="0.1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_add_word"
+            android:text="@string/Add_Random_Word"
+            android:textSize="15sp"
+            android:textColor="@color/main_background"
+            style="@style/textView_font_bahnschrift"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

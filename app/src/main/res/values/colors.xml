@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="progressbar_background">#CC000000</color>
+    <color name="opaque_background">#AAFFFFFF</color>
+    <color name="autocomplete_background">#A8C0CE</color>
+
+    //
+    <color name="main_background">#1D435C</color>
+    <color name="main_background_light">#33556C</color>
+    <color name="logo_color">#F27405</color>
+
+    //START PAGE
+    <color name="logo_letters">#FFFFFF</color>
+    <color name="text_version">@color/logo_letters</color>
+
+    //BOTTOM NAVIGATION
+    <color name="space_background_color">@color/logo_color</color>
+    <color name="centre_button_color">@color/activityMain_recyclerView_item_background</color>
+    <color name="active_centre_button_background_color">#7405F2</color>
+    <color name="active_centre_button_icon_color">@color/logo_letters</color>
+    <color name="inactive_centre_button_icon_color">#7405F2</color>
+    <color name="inactive_item_color">@color/activityMain_recyclerView_item_background</color>
+    <color name="active_item_color">#7405F2</color>
+
+    //ACTIVITY MAIN RECYCLERVIEW ITEM
+    <color name="imageButton_favorite_fill_color">#F2D338</color>
+    <color name="imageButton_favorite_border_color">@color/black</color>
+    <color name="activityMain_recyclerView_item_background">#E6F3FF</color>
+
+    //WORD INFO LISTVIEW ITEM
+    <color name="wordInfo_listView_bottomLine">#758690</color>
+
+    //INACTIVE TEXTS
+    <color name="inactiveTexts">#AAAAAA</color>
+    <color name="testOptions">#707070</color>
+
+    //ICONS
+    <color name="iconTrue">#40D72D</color>
+    <color name="iconFalse">#FF0000</color>
+
+
+</resources>

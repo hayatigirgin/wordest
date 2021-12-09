@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_autocompletetextview.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_button_add_word.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_button_start.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_button_word_info.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_circle.xml" value="0.20675105485232068" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_edittext_play_word_input.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_item_recyclerview_main.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_linearlayout_correct.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_linearlayout_false.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_linearlayout_settings.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_progressbar.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_shape.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_textview_circle.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_textview_listview.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_word_add.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/background_word_info.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/button_start.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_add.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_close.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_delete.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_false.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_bordered.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_circle.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_empty.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_empty_light.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_filled.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_filled_borderless.xml" value="0.20833333333333334" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_favorite_filled_light.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_help.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_hint.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_hint_colored.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_home.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_play.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_profile.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_setting.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_settings_active.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_speech.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_true.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/icon_wordest.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/logo_background.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/logo_wordest.xml" value="0.22179487179487178" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/progressbar_circle.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/switch_favorite_off.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/switch_favorite_on.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/switch_thumb_selector.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/drawable/switch_track_selector.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/activity_add_word.xml" value="0.197008547008547" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/activity_exercises.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/activity_main.xml" value="0.2059071729957806" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/dialog_word_add.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_activity_main_word_add.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_activity_main_word_info.xml" value="0.1751412429378531" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_activity_main_word_info_descriptions.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_activity_main_word_info_means.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_activity_main_word_info_sentences.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_exercise.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_play.xml" value="0.264" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_play_select_exercises.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_play_selector.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_profile.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_start.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/fragment_test.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_activity_add_recyclerview_words.xml" value="0.4" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_activity_main_recyclerview_words.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_autocompletetextview.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_listview.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_listview_help.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/item_word_info_recyclerview.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/page_main.xml" value="0.2" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/layout/page_start.xml" value="0.2" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/menu/bottom_navigation.xml" value="0.20854700854700856" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/mipmap-anydpi-v26/icon_logo.xml" value="0.2189873417721519" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.12008547008547009" />
+        <entry key="..\:/Programlama/AndroidStudio/wordest/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.12008547008547009" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="android.annotation.SuppressLint" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

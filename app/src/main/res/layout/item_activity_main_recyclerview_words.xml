@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:paddingHorizontal="25dp"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/activity_main_recyclerview_item_textview"
+        style="@style/item_textView_titillium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/background_item_recyclerview_main"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="@string/example"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/activity_main_recyclerview_item_imageButton_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintRight_toRightOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintBottom_toBottomOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintLeft_toLeftOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.95"
+        android:src="@drawable/icon_favorite_empty"
+        android:background="@android:color/transparent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/activity_main_recyclerview_item_imageButton_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintRight_toRightOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintBottom_toBottomOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintLeft_toLeftOf="@id/activity_main_recyclerview_item_textview"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:src="@drawable/icon_speech"
+        android:background="@android:color/transparent"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

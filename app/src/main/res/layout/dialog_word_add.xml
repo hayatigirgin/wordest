@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialog_wordAdd_constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintWidth_percent="0.8"
+        android:padding="25dp"
+        android:background="@drawable/background_word_info">
+
+        <TextView
+            android:id="@+id/dialog_wordAdd_textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_wordAdd_relativeLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_bias="0.1"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Add_This_Word"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            style="@style/textView_font_bahnschrift"/>
+
+        <TextView
+            android:id="@+id/dialog_wordAdd_textView_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_wordAdd_textView_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_wordAdd_relativeLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_bias="0.1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="35dp"
+            android:text="@string/example"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/active_item_color"
+            style="@style/textView_font_bahnschrift"/>
+
+        <LinearLayout
+            android:id="@+id/dialog_wordAdd_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_wordAdd_textView_word"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dialog_wordAdd_button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/background_button_add_word"
+                android:text="@string/CANCEL"
+                style="@style/button_font_bahnschrift"/>
+
+            <Button
+                android:id="@+id/dialog_wordAdd_button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/background_button_add_word"
+                android:text="@string/OK"
+                style="@style/button_font_bahnschrift"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
