@@ -2,7 +2,7 @@
 > Learn English Words
 
 <a class="github-button" href="https://github.com/hayatigirgin/wordest/raw/main/wordest.apk" data-icon="octicon-download" 
-aria-label="Download ntkme/github-buttons on GitHub">Download "wordest"</a>
+aria-label="Download ntkme/github-buttons on GitHub">Download wordest.apk</a>
 
 <img src="https://raw.githubusercontent.com/hayatigirgin/wordest/main/screenshots/start.jpg" width="250" height="500" /> <img src="https://raw.githubusercontent.com/hayatigirgin/wordest/main/screenshots/home.jpg" width="250" height="500" />
 <img src="https://raw.githubusercontent.com/hayatigirgin/wordest/main/screenshots/add.jpg" width="250" height="500" />
