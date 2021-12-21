@@ -3,7 +3,7 @@
 
 ### English :
 
-> You can easily learn about 27000 English words! Add to favourites, exercise, test and see your performance!
+> You can easily learn about 27000 English words! Add to favorites, exercise, test, and see your performance!
 
 ### Türkçe :
 
